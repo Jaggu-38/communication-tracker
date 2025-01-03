@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Jaggu-38/communication-tracker/static/css/main.a084e6cd.css",
+    "main.js": "/Jaggu-38/communication-tracker/static/js/main.e4dbba10.js",
+    "index.html": "/Jaggu-38/communication-tracker/index.html",
+    "main.a084e6cd.css.map": "/Jaggu-38/communication-tracker/static/css/main.a084e6cd.css.map",
+    "main.e4dbba10.js.map": "/Jaggu-38/communication-tracker/static/js/main.e4dbba10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a084e6cd.css",
+    "static/js/main.e4dbba10.js"
+  ]
+}
