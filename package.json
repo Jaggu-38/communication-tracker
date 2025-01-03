@@ -1,6 +1,7 @@
 {
   "name": "communication-tracking",
   "version": "0.1.0",
+  "homepage": "https://github.com/Jaggu-38/communication-tracker",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -26,11 +27,13 @@
     "webpack-dev-server": "^5.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -52,6 +55,7 @@
   "devDependencies": {
     "ajv": "^8.17.1",
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17"
   }
